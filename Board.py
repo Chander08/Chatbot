@@ -41,6 +41,14 @@ class Board:
         pygame.display.update()
         return(list_of_positions)
 
+        '''
+        notes for next time ig
+        need some organized way to identify the square being selected and to put a textbox there. Can use the list of 
+        positions and centre the number text box on that and find the dimensions of the box surrounding that. Then use pygame 
+        cursor detector to see if its in that range and if it is clicked it becomes some sort of text box?
+        
+        '''
+
     def update_board(): 
         #change board values for empty squares depending on user input 
         pass
