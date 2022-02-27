@@ -1,4 +1,3 @@
-# Chatbot
-AI chatbot project
+# Sudoku Solver
+Automatic Sudoku Solver
 
-Testing
