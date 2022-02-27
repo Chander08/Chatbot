@@ -28,10 +28,10 @@ class Board:
                 #rectangle_position = [i*square_size, j*square_size]
                 #list_of_positions.append(rectangle_position)
 
-        #for i in range(1,4): #making larger squares to add the border effect
-         #   for j in range(1,4): 
-          #      pygame.draw.rect(window, red, (i*square_size*3, j*square_size*3, square_size*3, square_size*3), 2)
-        #pygame.display.update()
+        for i in range(0,3): #making larger squares to add the border effect
+            for j in range(0,3): 
+                pygame.draw.rect(window, red, (i*square_size*3, j*square_size*3, square_size*3, square_size*3), 2)
+        pygame.display.update()
 
     def update_board(): 
         #change board values for empty squares depending on user input 
